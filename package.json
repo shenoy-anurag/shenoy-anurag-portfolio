@@ -16,16 +16,17 @@
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-source-filesystem": "^4.12.1",
     "gatsby-transformer-sharp": "^4.12.1",
-    "gh-pages": "^3.2.3",
     "node-sass": "^6.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.7"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "prettier": "2.6.2"
   },
   "keywords": [
@@ -34,9 +35,8 @@
   "license": "MIT",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "serve": "gatsby serve",
@@ -49,5 +49,17 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
