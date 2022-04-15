@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanurag_shenoy_website=self.webpackChunkanurag_shenoy_website||[]).push([[682],{5465:function(e,n,t){t.r(n);var l=t(7294),u=t(376),a=t(262),r=t(3049),c=t(1536),s=t(6947);n.default=function(){return l.createElement(u.Z,null,l.createElement(a.Z,{title:"Anurag Shenoy | About"}),l.createElement(r.Z,null),l.createElement(c.Z,null),l.createElement(s.Z,null))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-6468dfcc5d5ac3f606c5.js.map
