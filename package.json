@@ -4,6 +4,7 @@
   "description": "Anurag Shenoy's Website",
   "version": "1.0.0",
   "author": "Anurag Shenoy",
+  "homepage": "https://shenoy-anurag.github.io/portfolio",
   "dependencies": {
     "gatsby": "^4.12.0",
     "gatsby-image": "^3.11.0",
@@ -15,6 +16,7 @@
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-source-filesystem": "^4.12.1",
     "gatsby-transformer-sharp": "^4.12.1",
+    "gh-pages": "^3.2.3",
     "node-sass": "^6.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.0.0",
@@ -31,6 +33,8 @@
   ],
   "license": "MIT",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
