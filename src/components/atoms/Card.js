@@ -6,7 +6,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
       className="card"
       style={{
         backgroundImage:
-          "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
+          "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.8)),url(" +
           imgUrl +
           ")",
       }}

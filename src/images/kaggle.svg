@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="500" height="500" viewBox="0 0 500 500" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(8.19 0 0 8.19 244.65 250.72)" id="DpurzJA97h2D9sGX2TO5j" clip-path="url(#CLIPPATH_4)"  >
+<clipPath id="CLIPPATH_4" >
+	<path transform="matrix(1 0 0 1 87.52 8.03) translate(-176, -81)" id="A" d="M 31.5 15.978 L 320.5 15.978 L 320.5 146.02200000000002 L 31.5 146.02200000000002 z" stroke-linecap="round" />
+</clipPath>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-88.48, -72.97)" d="M 105.75 102.968 C 105.69 103.206 105.452 103.325 105.037 103.325 L 97.1 103.325 C 96.62299999999999 103.325 96.21 103.117 95.85199999999999 102.7 L 82.746 86.028 L 79.091 89.50500000000001 L 79.091 102.435 C 79.091 103.03 78.79299999999999 103.327 78.199 103.327 L 72.047 103.327 C 71.452 103.327 71.155 103.03 71.155 102.435 L 71.155 43.5 C 71.155 42.907 71.452 42.61 72.047 42.61 L 78.2 42.61 C 78.794 42.61 79.092 42.908 79.092 43.5 L 79.092 79.788 L 94.78399999999999 63.918 C 95.19999999999999 63.503 95.61599999999999 63.294 96.032 63.294 L 104.23599999999999 63.294 C 104.59199999999998 63.294 104.829 63.443999999999996 104.94899999999998 63.739 C 105.06899999999999 64.096 105.03899999999999 64.363 104.85899999999998 64.542 L 88.274 80.588 L 105.571 102.076 C 105.80799999999999 102.314 105.868 102.61099999999999 105.751 102.96799999999999" stroke-linecap="round" />
+</g>
+</svg>

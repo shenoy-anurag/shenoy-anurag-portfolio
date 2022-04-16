@@ -1,5 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import scrollTo from "gatsby-plugin-smoothscroll"
+
 import data from "../yourdata"
 
 const Header = () => {
@@ -40,14 +42,12 @@ const Header = () => {
             <p>{data.headerParagraph}</p>
           </Fade>
           <Fade bottom>
-            <a
-              href={`mailto:${
-                data.contactEmail ? data.contactEmail : "anuragshenoy21@gmail.com"
-              }`}
+            <button
+              onClick={() => scrollTo("#contact")} onKeyPress={() => scrollTo("#contact")}
               className="primary-btn"
             >
               CONNECT WITH ME
-            </a>
+            </button>
           </Fade>
         </div>
       </div>

@@ -8,18 +8,16 @@ import Work from "../components/Work"
 import About from "../components/about"
 import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
-import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Anurag Shenoy" />
-    <Header></Header>
+    {/* <Header></Header> */}
     <Work></Work>
     {/* <About></About> */}
-    <Skills></Skills>
+    {/* <Skills></Skills> */}
     {/* <Promotion></Promotion> */}
-    <Contact></Contact>
     <Footer></Footer>
   </Layout>
 )
