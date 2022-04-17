@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
-import downloadIcon from "../images/download-64.png"
+// import downloadIcon from "../images/download-64.png"
 
 const About = () => {
   return (

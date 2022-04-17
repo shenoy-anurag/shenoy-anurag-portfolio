@@ -1,0 +1,42 @@
+.blog-card {
+    width: 60vw;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    @include media(">=phone", "<lgphone") {
+        width: 90%;
+    }
+    @include media(">=lgphone", "<tablet") {
+        width: 90%;
+    }
+
+    .content {
+        text-align: left;
+        padding: 10px;
+        opacity: 1;
+
+        cursor: pointer;
+
+        h1 {
+            font-size: 24px;
+            color: rgb(0, 113, 194);
+            line-height: 24px;
+        }
+
+        p {
+            font-size: 16px;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .date {
+            color: rgb(42, 42, 42);
+            //margin-bottom: 1rem;
+            font-size: 0.8em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+}

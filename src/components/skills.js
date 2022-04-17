@@ -11,6 +11,7 @@ const Skills = () => {
             {data.skills.map((skill, index) => (
               <div className="skill" key={index}>
                 <img src={skill.img} alt="css"></img>
+                <p className={skill.level}>{skill.level}</p>
                 <p>{skill.para}</p>
               </div>
             ))}

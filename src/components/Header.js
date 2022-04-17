@@ -20,23 +20,30 @@ const Header = () => {
           <Fade bottom cascade>
             <div className="heading-wrapper">
               <h1>
-                {data.headerTagline[0]
-                  ? data.headerTagline[0]
+                {data.headerTaglines[0]
+                  ? data.headerTaglines[0]
                   : "Building digital"}
               </h1>
               <h1>
                 {" "}
-                {data.headerTagline[1]
-                  ? data.headerTagline[1]
+                {data.headerTaglines[1]
+                  ? data.headerTaglines[1]
                   : "products, brands"}
               </h1>
               <h1>
                 {" "}
-                {data.headerTagline[2]
-                  ? data.headerTagline[2]
+                {data.headerTaglines[2]
+                  ? data.headerTaglines[2]
                   : "and experience"}
               </h1>
             </div>
+            {/* <div className="heading-wrapper">
+              <h1>
+                {data.headerTagline
+                  ? data.headerTagline
+                  : "Building digital products, and obtaining insights from data"}
+              </h1>
+            </div> */}
           </Fade>
           <Fade bottom>
             <p>{data.headerParagraph}</p>

@@ -13,9 +13,13 @@
 @import "./skills.scss";
 @import "./promotion.scss";
 @import "./footer.scss";
+@import "./blog-post.scss";
+@import "./blog-card.scss";
+@import "./syntax.scss";
 
 * {
-  font-family: "Montserrat";
+  // font-family: "Montserrat";
+  font-family: "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
 }
 
 body {
@@ -42,12 +46,14 @@ body {
 
 .primary-btn {
   margin: 10px;
-  padding: 10px;
+  padding: 10px 15px;
   background-color: black;
   color: white;
   border: 0px;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
   cursor: pointer;
   &:hover {
     transform: scale(1.1);

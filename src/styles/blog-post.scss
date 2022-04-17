@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html {
+    --bg: rgb(255, 255, 255);
+    --bg-secondary: #f1f1f1;
+    --headings: #000;
+    --text: #333;
+    --links: blue;
+    --highlight: #FFECB2; // light yellow
+    --code-text: #9D174D;
+    --share-text: #999;
+}
+
+.blog-wrapper {
+    width: 80vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include media(">=phone", "<lgphone") {
+        width: 80%;
+    }
+    @include media(">=lgphone", "<tablet") {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 20px;
+    }
+
+    .btn {
+        margin-top: 5vh;
+        background-color: black;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .heavy {
+        // font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.blog-post-container {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include media(">=phone", "<lgphone") {
+        width: 80%;
+    }
+    @include media(">=lgphone", "<tablet") {
+        width: 80%;
+    }
+
+    .blog-post {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            align-items: center;
+        }
+
+        .blog-post-content {
+            width: 80vw;
+            max-width: 900px;
+            margin-top: 3vh;
+            display: flex;
+            flex-direction: column;
+
+            font-family: "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
+            font-size: 1.0rem;
+            line-height: 2;
+            // margin:0;
+            // min-height:100%
+
+            h1 {
+                font-size: 3rem;
+                line-height: 20px;
+            }
+        }
+    }
+}
+
+.post-date {
+    color: rgb(42, 42, 42);
+    //margin-bottom: 1rem;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Overwrite token font styling */
+.token {
+    font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+    font-size: 0.9rem;
+}
+
+/* Overwrite Inline code */
+:not(pre)>code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em;
+    white-space: normal;
+    background-color: var(--bg-secondary);
+    padding: 0.2rem;
+    color: var(--code-text);
+    font-weight: bold;
+}
+
+.gatsby-highlight-code-line {
+    // background-color: #feb;
+    background-color: #1A1F35;
+    color: #f2f0ec;
+    display: block;
+    margin-right: -1em;
+    margin-left: -1em;
+    padding-right: 1em;
+    padding-left: 0.75em;
+    border-left: 0.25em solid #f99;
+}
+
+/**
+ * Add back the container background-color, border-radius, padding, margin
+ * and overflow that we removed from <pre>.
+ */
+.gatsby-highlight {
+    // background-color: #fdf6e3;
+    background-color: #1A1F35;
+    color: #f2f0ec;
+    border-radius: 0.3em;
+    margin: 0.5em 0;
+    padding: 1em;
+    overflow: auto;
+}
+
+/**
+   * Remove the default PrismJS theme background-color, border-radius, margin,
+   * padding and overflow.
+   * 1. Make the element just wide enough to fit its content.
+   * 2. Always fill the visible space in .gatsby-highlight.
+   * 3. Adjust the position of the line numbers
+   */
+.gatsby-highlight pre[class*="language-"] {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    overflow: initial;
+    float: left;
+    /* 1 */
+    min-width: 100%;
+    /* 2 */
+}
+
+/**
+ * If you already use line highlighting
+ */
+
+/* Adjust the position of the line numbers */
+.gatsby-highlight pre[class*="language-"].line-numbers {
+    padding-left: 2.8em;
+}

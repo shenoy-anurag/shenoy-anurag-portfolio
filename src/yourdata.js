@@ -21,16 +21,22 @@ import linkedInIcon from "./images/linkedin.svg"
 import twitterIcon from "./images/twitter.svg"
 import kaggleIcon from "./images/kaggle.svg"
 
+const BEGINNER = "beginner"
+const INTERMEDIATE = "intermediate"
+const ADVANCED = "advanced"
+const EXPERT = "expert"
+
 export default {
   //   Header Details ---------------------
   name: "Anurag",
-  headerTagline: [
+  headerTagline: "Building digital products, and obtaining insights from data using deep learning",
+  headerTaglines: [
     //Line 1 For Header
-    "Building digital products,",
+    "Building digital products, ",
     //Line 2 For Header
-    "and obtaining insights from data using",
+    "and obtaining insights from data ",
     //Line 3 For Header
-    "deep learning",
+    "using deep learning",
   ],
   //   Header Paragraph
   headerParagraph:
@@ -131,53 +137,53 @@ export default {
   skills: [
     {
       img: pythonIcon,
-      para:
-        "Level: Expert. 3 years of professional experience. 5 years overall.",
+      para: "3 years of professional experience. 5 years overall.",
+      level: EXPERT,
     },
     {
       img: numpyIcon,
-      para:
-        "Level: Advanced. 3 years of work experience wrangling and working with data.",
+      para: "3 years of work experience wrangling and working with data.",
+      level: ADVANCED,
     },
     {
       img: pandasIcon,
-      para:
-        "Level: Advanced. 3 years of work experience wrangling and working with data.",
+      para: "3 years of work experience wrangling and working with data.",
+      level: ADVANCED,
     },
     {
       img: tensorflowIcon,
-      para:
-        "Level: Advanced. 2.5 years of work experience designing deep learning models for NLP and CV.",
+      para: "2.5 years of work experience designing deep learning models for NLP and CV.",
+      level: ADVANCED,
     },
     {
       img: nlpIcon,
-      para:
-        "Level: Advanced. 2.5 years of work experience designing NLP and NLU models.",
+      para: "2.5 years of work experience designing NLP and NLU models.",
+      level: ADVANCED,
     },
     {
       img: mongodbIcon,
-      para:
-        "Level: Advanced. 3 years of work experience with MongoDB.",
+      para: "3 years of work experience with MongoDB.",
+      level: ADVANCED,
     },
     {
       img: sqlIcon,
-      para:
-        "Level: Intermediate. 6 months of work experience with PostgreSQL.",
+      para: "6 months of work experience with PostgreSQL.",
+      level: INTERMEDIATE,
     },
     {
       img: dockerIcon,
-      para:
-        "Level: Intermediate. 2 years of work experience working with containers.",
+      para: "2 years of work experience working with containers.",
+      level: INTERMEDIATE,
     },
     {
       img: golangIcon,
-      para:
-        "Level: Intermediate. 4 months of experience working on a class project.",
+      para: "4 months of experience working on a class project.",
+      level: INTERMEDIATE,
     },
     {
       img: reactIcon,
-      para:
-        "Level: Beginner. 3 months of experience working on a class project.",
+      para: "3 months of experience working on a class project.",
+      level: BEGINNER,
     },
     // {
     //   img: htmlIcon,
