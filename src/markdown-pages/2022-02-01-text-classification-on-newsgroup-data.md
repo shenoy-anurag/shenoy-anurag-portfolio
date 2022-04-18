@@ -552,7 +552,7 @@ cm_matrix = pd.DataFrame(data=cm, columns=label_names, index=label_names)
 plt.figure(figsize = (10, 10))
 sns.heatmap(cm_matrix, annot=True, square=True, fmt='d', cmap='YlGnBu')
 ```
-![Confusion Matrix for Least Squares](../images/newsgroup-classification-confusion-matrix.jpg)
+![Confusion Matrix for Least Squares](../images/newsgroup-classification-confusion-matrix.png)
 
 We can see that documents from the `sci.electronics` class are being incorrectly classified into other classes such as `comp.graphics`, while documents from `misc.forsale` are mostly being correctly identified. This makes sense as there are many classes which have an overlap with `sci.electronics` domain such as `comp.graphics`, `comp.sys.mac.hardware`, and `sci.med` as concepts in electronics are used across many domains and thus the set of words will be common across more classes.
 
