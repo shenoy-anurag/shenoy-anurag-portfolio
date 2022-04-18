@@ -49,13 +49,15 @@ The four algorithms we'll be using are:
 
 The equation for Naive Bayes classification rule is,
 
-$$\begin{align*}\begin{aligned}P(y \mid x_1, \dots, x_n) \propto P(y) \prod_{i=1}^{n} P(x_i \mid y)\\\Downarrow\\\hat{y} = \arg\max_y P(y) \prod_{i=1}^{n} P(x_i \mid y)\end{aligned}\end{align*}$$
+$$
+P(y \mid x_1, \dots, x_n) \propto P(y) \prod_{i=1}^{n} P(x_i \mid y)
+\\\Downarrow\\
+\hat{y} = \arg\max_y P(y) \prod_{i=1}^{n} P(x_i \mid y)
+$$
 
-<br>
-The probability $$P(x_i|y)$$ represents the probability of feature $$i$$ in training data $$x$$ given that we know the document belongs to a class $$y$$.
+The probability $P(x_i|y)$ represents the probability of feature $i$ in training data $x$ given that we know the document belongs to a class $y$.
 
-<br>
-We multiply the probabilities of each of the features appearing given that they belong to class $$y$$ i.e. $$\prod_{i=1}^n P(x_i|y)$$ and to obtain the overall probability, we multiply the result with the probability that a document belongs to the class $$y$$ in the set of all documents. We calculate these probabilities for every class and then compare them. 
+We multiply the probabilities of each of the features appearing given that they belong to class $y$ i.e. $\prod_{i=1}^n P(x_i|y)$ and to obtain the overall probability, we multiply the result with the probability that a document belongs to the class $$y$$ in the set of all documents. We calculate these probabilities for every class and then compare them. 
 
 **The largest probability is the predicted class.**
 
@@ -95,21 +97,20 @@ $$ P(S) * (P(Dear|S) * P(Bank|S)) = 0.008 $$
 As 0.0319 > 0.008, argmax function will tell us that this email belongs to class N, i.e. it is a normal email.
 
 Say now our message is "Hangout Bank Gold Gold", the probability that it belongs to class N is:
-$$ P(N) * (P(Hangout|N) * P(Bank|N) * P(Gold|N)^2) = 4.3148 \text{x} 10^{-6} $$
+
+$ P(N) * (P(Hangout|N) * P(Bank|N) * P(Gold|N)^2) = 4.3148 \text{x} 10^{-6} $
 
 And, the probability that it belongs to class S is:
-$$ P(S) * (P(Hangout|S) * P(Bank|S) * P(Gold|S)^2) = 0.00 $$
+$ P(S) * (P(Hangout|S) * P(Bank|S) * P(Gold|S)^2) = 0.00 $
 
-<br>
-Even though we have a good idea that this should be classified as spam, the entire probability becomes zero as $$ P(Hangout|S)) = 0.0 $$
+Even though we have a good idea that this should be classified as spam, the entire probability becomes zero as $ P(Hangout|S)) = 0.0 $
 
 We have two issues here:
 - Zero probabilities
 - Underflow (values so small, they are basically zero)
 
-To address the issue of **Zero Probabilities**, we add some count (usually 1) to each word's frequency, thus obtaining non-zero probabilities for each feature. This is usually denoted by $$\alpha$$.
+To address the issue of **Zero Probabilities**, we add some count (usually 1) to each word's frequency, thus obtaining non-zero probabilities for each feature. This is usually denoted by $\alpha$.
 
-<br>
 Also, as you can see, $$ P(N) * (P(Hangout|N) * P(Bank|N) * P(Gold|N)^2) $$ results in a very tiny number. If we had 100 features/words, this number might become too small for computer systems to store as there may not be enough precision in even `float64` data type.
 
 To address the issue of **Underflow**, we usually take `log` of all the probabilities and compare the log products. Since we are only comparing the relative magnitudes, any transformation that preserves proportionality while keeping the numbers large enough to store in `float64` will work, and `log` is perfect for this.
