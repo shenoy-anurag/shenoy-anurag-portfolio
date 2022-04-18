@@ -4,7 +4,7 @@
   "description": "Anurag Shenoy's Website",
   "version": "1.0.0",
   "author": "Anurag Shenoy",
-  "homepage": "https://shenoy-anurag.github.io/portfolio",
+  "homepage": "https://shenoy-anurag.github.io/",
   "dependencies": {
     "gatsby": "^4.12.0",
     "gatsby-image": "^3.11.0",

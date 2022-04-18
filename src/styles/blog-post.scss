@@ -22,13 +22,9 @@ html {
     @include media(">=phone", "<lgphone") {
         width: 80%;
     }
+
     @include media(">=lgphone", "<tablet") {
         width: 80%;
-    }
-
-    h1 {
-        font-size: 3rem;
-        line-height: 20px;
     }
 
     .btn {
@@ -57,6 +53,7 @@ html {
     @include media(">=phone", "<lgphone") {
         width: 80%;
     }
+
     @include media(">=lgphone", "<tablet") {
         width: 80%;
     }
@@ -71,7 +68,7 @@ html {
         max-width: 900px;
 
         h1 {
-            align-items: center;
+            text-align: center;
         }
 
         .blog-post-content {
@@ -84,12 +81,9 @@ html {
             font-family: "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
             font-size: 1.0rem;
             line-height: 2;
-            // margin:0;
-            // min-height:100%
-
+            
             h1 {
-                font-size: 3rem;
-                line-height: 20px;
+                text-align:  left;
             }
         }
     }

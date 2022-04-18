@@ -50,60 +50,44 @@ export default {
   // Work Section ------------------------
   projects: [
     {
+      title: "Aggre-Gator",
+      para:
+        "Hackathon Winning Project! A News aggregator service which scrapes news networks for articles, and provides user with a feed. Built using Python, Flask, Celery, MongoDB, RabbitMQ, and ElasticSearch and deployed on Amazon LightSail.",
+      imageSrc:
+        "https://i.imgur.com/Sls8KNp.png",
+      url: "https://github.com/shenoy-anurag/Aggre-Gator",
+    },
+    {
       title: "Simple Reddit",
       para:
         "Reddit clone using Golang, Angular & MongoDB. We have used Software Engineering best practices and Agile methodologies.",
       imageSrc:
         "https://i.imgur.com/ITitoe2.png",
-      url: "https://shenoy-anurag.github.io/",
+      url: "https://shenoy-anurag.github.io/blog/simple-reddit",
     },
     {
       title: "Data Science Chatbot",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+        "A chatbot named Gyan who can teach you concepts of machine learning and data science.",
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        "https://i.imgur.com/lJwrF4O.png",
       url: "https://shenoy-anurag.github.io/",
     },
     {
-      title: "Aggre-Gator", //Project Title - Add Your Project Title Here
+      title: "Hand Gesture Recognition",
       para:
-        "Hackathon Winning Project! A News aggregator service which scrapes news networks for articles, and provides user with a feed. Built using Python, Flask, Celery, MongoDB, RabbitMQ, and ElasticSearch and deployed on Amazon LightSail.",
-      //Project Image - Add Your Project Image Here
+        "A Hand Gesture Recognition App being built for Human Computer Interaction project. We are comparing hand gestures with tangible interaction to research usability, and naturalness of both interaction methods.", 
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "https://shenoy-anurag.github.io/",
+        "https://camo.githubusercontent.com/bed0323313b5052dd641f6090c49bdb2ab87cfdd2db8a0a02d07e54f8898c10f/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6b7746686e5159785854587463584963346d2f67697068792d646f776e73697a65642e676966",
+      url: "https://github.com/shenoy-anurag/hand-gesture-recognition",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Baits", 
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "Probes/Baits extraction from DNA Sequences",
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "https://shenoy-anurag.github.io/",
-    },
-    {
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "https://shenoy-anurag.github.io/",
-    },
-    {
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "https://shenoy-anurag.github.io/",
+        "https://images.unsplash.com/photo-1633167606207-d840b5070fc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      url: "https://shenoy-anurag.github.io/blog/bioinformatics-proj-proposal/",
     },
 
     /*

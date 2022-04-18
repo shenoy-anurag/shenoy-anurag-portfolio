@@ -15,7 +15,7 @@ const Navbar = () => {
             tabIndex={0}
           >
             {/* Portfolio. */}
-            <Link to="/" className="home active">Portfolio.</Link>
+            <Link to="/" className="home active">Home.</Link>
           </div>
           <div className="links-wrapper">
             <Link to="/work" className="link active">Work</Link>
