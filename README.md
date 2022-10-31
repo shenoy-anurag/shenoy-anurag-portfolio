@@ -8,8 +8,11 @@ $ yarn
 
 $ npm -g install gatsby
 
-#Start's development server
+# Start development server
 $ gatsby develop
+
+# Deploy to GH pages
+$ yarn run deploy
 ```
 
 ## Technologies Used
