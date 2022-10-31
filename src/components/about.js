@@ -28,15 +28,15 @@ const About = () => {
             </p>
             <br></br>
             <h3>Resume</h3>
-            <a href="https://drive.google.com/file/d/1Iu2eifmn6aAzcibBpKhxlyvJOL1ujt4P/view?usp=sharing">Download Resume (PDF)</a>
+            <a href="https://drive.google.com/file/d/1jWDDJtyM7TDxDivUBGbgwE5IEC2W26mx/view?usp=share_link">Download Resume (PDF)</a>
             &nbsp;&nbsp;
             <br></br>
             <br></br>
-            <a href="https://docs.google.com/document/d/1Zeq1AvJL3JxeyGyhRsUOW0smWTfpn43M/edit?usp=sharing&ouid=103781709352320889463&rtpof=true&sd=true">Download Resume (Word)</a>
+            <a href="https://docs.google.com/document/d/142UQOp_tI7wkamlZWe1_lRrg9-gtGvMx/edit?usp=share_link&ouid=103781709352320889463&rtpof=true&sd=true">Download Resume (Word)</a>
             <br></br>
             <br></br>
-            <h3>Phone Number</h3>
-            <a href={"tel:" + data.contactPhoneNumber}>{data.contactPhoneNumber}</a>
+            {/* <h3>Phone Number</h3>
+            <a href={"tel:" + data.contactPhoneNumber}>{data.contactPhoneNumber}</a> */}
             <br></br>
             <br></br>
             <br></br>
