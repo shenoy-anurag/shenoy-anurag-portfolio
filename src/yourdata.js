@@ -14,6 +14,8 @@ import pandasIcon from "./images/pandas2.svg"
 import nlpIcon from "./images/NLP.png"
 import mongodbIcon from "./images/mongodb.svg"
 import sqlIcon from "./images/sql.png"
+import ollamaIcon from "./images/ollama.svg"
+import gestureXDemoGIF from "./images/gesturex-project-demo.gif"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -77,8 +79,7 @@ export default {
       title: "Hand Gesture Recognition",
       para:
         "A Hand Gesture Recognition App being built for Human Computer Interaction project. We are comparing hand gestures with tangible interaction to research usability, and naturalness of both interaction methods.", 
-      imageSrc:
-        "https://camo.githubusercontent.com/bed0323313b5052dd641f6090c49bdb2ab87cfdd2db8a0a02d07e54f8898c10f/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6b7746686e5159785854587463584963346d2f67697068792d646f776e73697a65642e676966",
+      imageSrc: gestureXDemoGIF,
       url: "https://github.com/shenoy-anurag/hand-gesture-recognition",
     },
     {
@@ -121,17 +122,17 @@ export default {
   skills: [
     {
       img: pythonIcon,
-      para: "3 years of professional experience. 5 years overall.",
+      para: "4.5 years of professional experience. 6.5 years overall.",
       level: EXPERT,
     },
     {
       img: numpyIcon,
-      para: "3 years of work experience wrangling and working with data.",
+      para: "4 years of work experience wrangling and working with data.",
       level: ADVANCED,
     },
     {
       img: pandasIcon,
-      para: "3 years of work experience wrangling and working with data.",
+      para: "4 years of work experience wrangling and working with data.",
       level: ADVANCED,
     },
     {
@@ -160,14 +161,19 @@ export default {
       level: INTERMEDIATE,
     },
     {
+      img: reactIcon,
+      para: "6 months of experience working on personal and class projects.",
+      level: INTERMEDIATE,
+    },
+    {
       img: golangIcon,
       para: "4 months of experience working on a class project.",
       level: INTERMEDIATE,
     },
     {
-      img: reactIcon,
-      para: "3 months of experience working on a class project.",
-      level: BEGINNER,
+      img: ollamaIcon,
+      para: "Deployed Local Large Language models such as llama 3.2 7B",
+      level: INTERMEDIATE,
     },
     // {
     //   img: htmlIcon,
