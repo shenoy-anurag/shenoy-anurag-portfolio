@@ -16,6 +16,7 @@ import mongodbIcon from "./images/mongodb.svg"
 import sqlIcon from "./images/sql.png"
 import ollamaIcon from "./images/ollama.svg"
 import gestureXDemoGIF from "./images/gesturex-project-demo.gif"
+import hinDictGIF from "./images/hindict/hindict-demo-aadhyatmik.gif"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -52,6 +53,20 @@ export default {
   // Work Section ------------------------
   projects: [
     {
+      title: "HinDict",
+      para:
+        "An LLM app which helps you to find definitions of Hindi words and their English counterparts.", 
+      imageSrc: hinDictGIF,
+      url: "https://shenoy-anurag.github.io/blog/hindict",
+    },
+    {
+      title: "Hand Gesture Recognition",
+      para:
+        "A Hand Gesture Recognition App being built for Human Computer Interaction project. We are comparing hand gestures with tangible interaction to research usability, and naturalness of both interaction methods.", 
+      imageSrc: gestureXDemoGIF,
+      url: "https://github.com/shenoy-anurag/hand-gesture-recognition",
+    },
+    {
       title: "Aggre-Gator",
       para:
         "Hackathon Winning Project! A News aggregator service which scrapes news networks for articles, and provides user with a feed. Built using Python, Flask, Celery, MongoDB, RabbitMQ, and ElasticSearch and deployed on Amazon LightSail.",
@@ -74,13 +89,6 @@ export default {
       imageSrc:
         "https://i.imgur.com/lJwrF4O.png",
       url: "https://shenoy-anurag.github.io/",
-    },
-    {
-      title: "Hand Gesture Recognition",
-      para:
-        "A Hand Gesture Recognition App being built for Human Computer Interaction project. We are comparing hand gestures with tangible interaction to research usability, and naturalness of both interaction methods.", 
-      imageSrc: gestureXDemoGIF,
-      url: "https://github.com/shenoy-anurag/hand-gesture-recognition",
     },
     {
       title: "Baits", 
