@@ -12,7 +12,6 @@ import "../styles/mains.scss"
 const Layout = ({ children }) => {
   return (
     <>
-      <script async src="https://api.countapi.xyz/hit/shenoy-anurag.github.io/9ae7f544-4743-4272-b898-cc30c80d30b3"></script>
       <Navbar></Navbar>
       <main>{children}</main>
     </>

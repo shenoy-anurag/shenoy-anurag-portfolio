@@ -26,6 +26,13 @@ tags:
     - project
 ---
 
+## Demo
+![definition of the hindi word aadhyatmik](../images/hindict/hindict-demo-aadhyatmik.gif)
+
+I have used a local Large Language Model (hereafter referred to as an LLM) to provide the user with the basic translation.
+
+Then, I'm extracting the word guessed by the LLM to call a free dictionary API to get a full definition of the English term.
+
 ## Backstory
 
 To learn more about civilizations and hopefully more about myself, I read Genesis (from the Bible) a long time ago. I was always interested in the Bhagavad Gita as a source of wisdom and philosophy, but never picked it up.
@@ -41,13 +48,6 @@ I have always used the latin alphabet to write Hindi when chatting with friends.
 To make it much easier to learn Hindi words quickly, I decided to make an app which uses the power of generative AI to provide me the meanings of words directly from the romanized version of the Hindi word.
 
 I then use an API to fetch the definition of the top English word which is synonymous to the Hindi word.
-
-## Demo
-![definition of the hindi word aadhyatmik](../images/hindict/hindict-demo-aadhyatmik.gif)
-
-I have used a local Large Language Model (hereafter referred to as an LLM) to provide the user with the basic translation.
-
-Then, I'm extracting the word guessed by the LLM to call a free dictionary API to get a full definition of the English term.
 
 ## Future plans
 

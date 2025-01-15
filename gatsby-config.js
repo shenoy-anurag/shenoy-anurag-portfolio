@@ -52,6 +52,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images/hindict`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -139,6 +145,7 @@ module.exports = {
               maxWidth: 800,
             },
           },
+          'gatsby-remark-static-images',
           {
             resolve: `gatsby-remark-katex`,
             options: {
