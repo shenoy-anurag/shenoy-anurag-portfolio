@@ -34,16 +34,12 @@ export default {
   name: "Anurag",
   headerTagline: "Building digital products, and obtaining insights from data using deep learning",
   headerTaglines: [
-    //Line 1 For Header
-    "Building digital products, ",
-    //Line 2 For Header
-    "and obtaining insights from data ",
-    //Line 3 For Header
-    "using deep learning",
+    "I'm a software engineer based in Florida",
+    "and I try my best to create things with ❤️"
   ],
   //   Header Paragraph
   headerParagraph:
-    "Computer Science Student at University of Florida with 3 years of professional experience in building deep learning models and web applications.",
+    "Professional with over 4 years of experience in Industry and Academia, building ML / AI models and web applications.",
 
   //Contact Email
   contactEmail: "anuragshenoy21@gmail.com",
@@ -57,14 +53,14 @@ export default {
       para:
         "An LLM app which helps you to find definitions of Hindi words and their English counterparts.", 
       imageSrc: hinDictGIF,
-      url: "https://shenoy-anurag.github.io/blog/hindict",
+      url: "blog/hindict",
     },
     {
       title: "Hand Gesture Recognition",
       para:
         "A Hand Gesture Recognition App being built for Human Computer Interaction project. We are comparing hand gestures with tangible interaction to research usability, and naturalness of both interaction methods.", 
       imageSrc: gestureXDemoGIF,
-      url: "https://github.com/shenoy-anurag/hand-gesture-recognition",
+      url: "https://gesturex.netlify.app/",
     },
     {
       title: "Aggre-Gator",
@@ -80,7 +76,7 @@ export default {
         "Reddit clone using Golang, Angular & MongoDB. We have used Software Engineering best practices and Agile methodologies.",
       imageSrc:
         "https://i.imgur.com/ITitoe2.png",
-      url: "https://shenoy-anurag.github.io/blog/simple-reddit",
+      url: "blog/simple-reddit",
     },
     {
       title: "Data Science Chatbot",
@@ -88,7 +84,7 @@ export default {
         "A chatbot named Gyan who can teach you concepts of machine learning and data science.",
       imageSrc:
         "https://i.imgur.com/lJwrF4O.png",
-      url: "https://shenoy-anurag.github.io/",
+      url: "https://github.com/shenoy-anurag/data-science-chatbot",
     },
     {
       title: "Baits", 
@@ -96,7 +92,7 @@ export default {
         "Probes/Baits extraction from DNA Sequences",
       imageSrc:
         "https://images.unsplash.com/photo-1633167606207-d840b5070fc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      url: "https://shenoy-anurag.github.io/blog/bioinformatics-proj-proposal/",
+      url: "blog/bioinformatics-proj-proposal/",
     },
 
     /*
@@ -111,9 +107,9 @@ export default {
 
   // End Work Section -----------------------
 
-  // About Secton --------------
+  // About Section --------------
   aboutParaOne:
-    "I am currently pursuing my masters in Computer Science at the University of Florida in Gainesville, with a focus on Machine Learning.",
+    "Graduated with a Masters in Computer Science from the University of Florida, and am actively looking for opportunities.",
   aboutParaTwo:
     "I use Natural Language Processing and other Deep Learning technologies to enable computers to interact with the world around them. I’m intrigued by the human brain and its capacity to process information, categorise objects, recognize patterns and form intelligent thoughts seemingly effortlessly unlike machines (so far).",
   aboutParaThree:

@@ -53,7 +53,7 @@ const LimitedBlogPosts = props => {
     // a must be equal to b
     return 0;
   })
-  let topPages = mdPages.slice(1, 6)
+  let topPages = mdPages.slice(0, 5)
 
   return (
     <div className="section" id="blog">

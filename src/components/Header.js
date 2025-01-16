@@ -30,12 +30,6 @@ const Header = () => {
                   ? data.headerTaglines[1]
                   : "products, brands"}
               </h1>
-              <h1>
-                {" "}
-                {data.headerTaglines[2]
-                  ? data.headerTaglines[2]
-                  : "and experience"}
-              </h1>
             </div>
             {/* <div className="heading-wrapper">
               <h1>
