@@ -2,9 +2,9 @@
   "name": "anurag-shenoy-website",
   "private": true,
   "description": "Anurag Shenoy's Website",
-  "version": "1.22.19",
+  "version": "1.1.22",
   "author": "Anurag Shenoy",
-  "homepage": "https://shenoy-anurag.github.io/",
+  "homepage": "https://www.anuragshenoy.in/",
   "dependencies": {
     "gatsby": "^4.25.9",
     "gatsby-image": "^3.11.0",
