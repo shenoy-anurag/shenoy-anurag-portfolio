@@ -231,6 +231,10 @@ export default {
       img: twitterIcon,
       url: "https://twitter.com/anurag397",
     },
+    {
+      img: "https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=anuragshenoy&button_colour=000001&font_colour=ffffff&font_family=Cookie&outline_colour=ffffff&coffee_colour=FFDD00",
+      url: "https://buymeacoffee.com/anuragshenoy",
+    }
   ],
   // -------------- End Footer Section ---------------
 }
