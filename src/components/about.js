@@ -16,7 +16,7 @@ const About = () => {
             <Fade bottom cascade>
               <h1>About Me</h1>
             </Fade>
-            <h2>Anurag Shenoy is a Software Developer and Machine Learning Engineer with 3 years of work experience in the industry.</h2>
+            <h2>I'm a Software Developer and Machine Learning Engineer with 5 years of work experience in the industry.</h2>
             <p>
               {data.aboutParaOne}
               <br></br>
@@ -28,11 +28,11 @@ const About = () => {
             </p>
             <br></br>
             <h3>Resume</h3>
-            <a href="https://drive.google.com/file/d/1jWDDJtyM7TDxDivUBGbgwE5IEC2W26mx/view?usp=share_link">Download Resume (PDF)</a>
+            <a href="https://drive.google.com/file/d/1m1DIGmMjuTKNT6Ad852HnVlDzrz8uYzR/view?usp=sharing">Download Resume (PDF)</a>
             &nbsp;&nbsp;
             <br></br>
             <br></br>
-            <a href="https://docs.google.com/document/d/142UQOp_tI7wkamlZWe1_lRrg9-gtGvMx/edit?usp=share_link&ouid=103781709352320889463&rtpof=true&sd=true">Download Resume (Word)</a>
+            <a href="https://docs.google.com/document/d/1kZ0ZrNAUy3R01g4I9WaurRFidz0_Qugk/edit?usp=sharing&ouid=107150247661293569256&rtpof=true&sd=true">Download Resume (Word)</a>
             <br></br>
             <br></br>
             {/* <h3>Phone Number</h3>

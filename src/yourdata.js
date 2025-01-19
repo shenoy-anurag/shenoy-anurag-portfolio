@@ -39,7 +39,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Professional with over 4 years of experience in Industry and Academia, building ML / AI models and web applications.",
+    "Professional with over 5 years of experience in Industry and Academia, building ML / AI models and web applications.",
 
   //Contact Email
   contactEmail: "anuragshenoy21@gmail.com",
@@ -111,7 +111,7 @@ export default {
   aboutParaOne:
     "Graduated with a Masters in Computer Science from the University of Florida, and am actively looking for opportunities.",
   aboutParaTwo:
-    "I use Natural Language Processing and other Deep Learning technologies to enable computers to interact with the world around them. I’m intrigued by the human brain and its capacity to process information, categorise objects, recognize patterns and form intelligent thoughts seemingly effortlessly unlike machines (so far).",
+    "I use Natural Language Processing and other Deep Learning technologies to enable computers to interact with the world around them. I’m intrigued by the human brain and its capacity to process information, categorize objects, recognize patterns and form intelligent thoughts seemingly effortlessly unlike machines (so far).",
   aboutParaThree:
     "When I’m not developing software or being lost in thought, I like to read books, play football (soccer), play the piano, listen to music, learn from podcasts or watch educational youtube content.",
   aboutImage:
@@ -126,27 +126,27 @@ export default {
   skills: [
     {
       img: pythonIcon,
-      para: "4.5 years of professional experience. 6.5 years overall.",
+      para: "5 years of professional experience. 6.5 years overall.",
       level: EXPERT,
     },
     {
       img: numpyIcon,
-      para: "4 years of work experience wrangling and working with data.",
-      level: ADVANCED,
+      para: "5 years of work experience wrangling and working with data.",
+      level: EXPERT,
     },
     {
       img: pandasIcon,
-      para: "4 years of work experience wrangling and working with data.",
-      level: ADVANCED,
+      para: "5 years of work experience wrangling and working with data.",
+      level: EXPERT,
     },
     {
       img: tensorflowIcon,
-      para: "2.5 years of work experience designing deep learning models for NLP and CV.",
+      para: "3 years of work experience designing deep learning models for NLP and CV.",
       level: ADVANCED,
     },
     {
       img: nlpIcon,
-      para: "2.5 years of work experience designing NLP and NLU models.",
+      para: "3 years of work experience designing NLP and NLU models.",
       level: ADVANCED,
     },
     {
@@ -161,7 +161,7 @@ export default {
     },
     {
       img: dockerIcon,
-      para: "2 years of work experience working with containers.",
+      para: "3 years of work experience working with containers.",
       level: INTERMEDIATE,
     },
     {
