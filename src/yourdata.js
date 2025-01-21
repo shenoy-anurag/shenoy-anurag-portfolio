@@ -15,6 +15,7 @@ import nlpIcon from "./images/NLP.png"
 import mongodbIcon from "./images/mongodb.svg"
 import sqlIcon from "./images/sql.png"
 import ollamaIcon from "./images/ollama.svg"
+import virtualThereminImg from "./images/virtual-theremin.png"
 import gestureXDemoGIF from "./images/gesturex-project-demo.gif"
 import hinDictGIF from "./images/hindict/hindict-demo-aadhyatmik.gif"
 
@@ -56,11 +57,11 @@ export default {
       url: "blog/hindict",
     },
     {
-      title: "Hand Gesture Recognition",
+      title: "Virtual Theremin",
       para:
-        "A Hand Gesture Recognition App being built for Human Computer Interaction project. We are comparing hand gestures with tangible interaction to research usability, and naturalness of both interaction methods.", 
-      imageSrc: gestureXDemoGIF,
-      url: "https://gesturex.netlify.app/",
+        "A virtual Theremin powered by Google's mediapipe AI hand detection model.", 
+      imageSrc: virtualThereminImg,
+      url: "https://virtualtheremin.netlify.app/",
     },
     {
       title: "Aggre-Gator",
@@ -94,7 +95,13 @@ export default {
         "https://images.unsplash.com/photo-1633167606207-d840b5070fc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
       url: "blog/bioinformatics-proj-proposal/",
     },
-
+    {
+      title: "Hand Gesture Recognition",
+      para:
+        "A Hand Gesture Recognition App being built for Human Computer Interaction project. We are comparing hand gestures with tangible interaction to research usability, and naturalness of both interaction methods.", 
+      imageSrc: gestureXDemoGIF,
+      url: "https://gesturex.netlify.app/",
+    },
     /*
     ,{
         title: 'Project Seven',
