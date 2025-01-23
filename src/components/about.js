@@ -28,11 +28,11 @@ const About = () => {
             </p>
             <br></br>
             <h3>Resume</h3>
-            <a href="https://drive.google.com/file/d/1m1DIGmMjuTKNT6Ad852HnVlDzrz8uYzR/view?usp=sharing">Download Resume (PDF)</a>
+            <a href="https://drive.google.com/file/d/1n7HPRu7EjjjEpnZJY24IQGYXC4oO02Ye/view?usp=sharing">Download Resume (PDF)</a>
             &nbsp;&nbsp;
             <br></br>
             <br></br>
-            <a href="https://docs.google.com/document/d/1kZ0ZrNAUy3R01g4I9WaurRFidz0_Qugk/edit?usp=sharing&ouid=107150247661293569256&rtpof=true&sd=true">Download Resume (Word)</a>
+            <a href="https://docs.google.com/document/d/1NOkRe1RbA1mNZ7CR9apaLsjJ1DI1bsYB/edit?usp=sharing&ouid=107150247661293569256&rtpof=true&sd=true">Download Resume (Word)</a>
             <br></br>
             <br></br>
             {/* <h3>Phone Number</h3>
