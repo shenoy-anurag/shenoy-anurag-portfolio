@@ -228,7 +228,7 @@ export default {
     },
     {
       img: linkedInIcon,
-      url: "https://www.linkedin.com/in/anurag-shenoy/",
+      url: "https://www.linkedin.com/in/anuragshenoy/",
     },
     {
       img: kaggleIcon,
