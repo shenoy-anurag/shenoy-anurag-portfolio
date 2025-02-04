@@ -120,7 +120,7 @@ export default {
   aboutParaTwo:
     "I use Natural Language Processing and other Deep Learning technologies to enable computers to interact with the world around them. I’m intrigued by the human brain and its capacity to process information, categorize objects, recognize patterns and form intelligent thoughts seemingly effortlessly unlike machines (so far).",
   aboutParaThree:
-    "When I’m not developing software or being lost in thought, I like to read books, play football (soccer), play the piano, listen to music, learn from podcasts or watch educational youtube content.",
+    "When I’m not developing software or being lost in thought, I like to read books, play football (soccer), play the piano, listen to music, hiking, biking and leather-crafting.",
   aboutImage:
     "https://i.imgur.com/0rnoUPB.png",
 
