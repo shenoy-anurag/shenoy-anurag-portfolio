@@ -27,7 +27,7 @@ tags:
 ---
 
 ## Demo
-![definition of the hindi word aadhyatmik](../images/hindict/hindict-demo-aadhyatmik.gif)
+![definition of the hindi word aadhyatmik](../images/hindict/hindict-demo-aadhyatmik-lg.gif)
 
 I have used a local Large Language Model (hereafter referred to as an LLM) to provide the user with the basic translation.
 

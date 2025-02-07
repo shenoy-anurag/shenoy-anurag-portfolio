@@ -17,7 +17,7 @@ import sqlIcon from "./images/sql.png"
 import ollamaIcon from "./images/ollama.svg"
 import virtualThereminImg from "./images/virtual-theremin.png"
 import gestureXDemoGIF from "./images/gesturex-project-demo.gif"
-import hinDictGIF from "./images/hindict/hindict-demo-aadhyatmik.gif"
+import hinDictGIF from "./images/hindict/hindict-demo-aadhyatmik-sm.gif"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -35,7 +35,7 @@ export default {
   name: "Anurag",
   headerTagline: "Building digital products, and obtaining insights from data using deep learning",
   headerTaglines: [
-    "I'm a software engineer based in Florida",
+    "I'm a Machine Learning Engineer",
     "and I try my best to create things with ❤️"
   ],
   //   Header Paragraph
